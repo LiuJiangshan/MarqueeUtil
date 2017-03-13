@@ -1,5 +1,5 @@
 # MarqueeUtil
-#简单,自用Jquery滚动条
+简单,自用Jquery滚动条</br>
 #开始滚动
 startMove($("div"),speed)
 #停止滚动
