@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/marqueeUtil.js"></script>
+    <script>
+        $(document).ready(function ()
+        {
+            startMove($("div"), null);
+            $("div").click(function ()
+            {
+                stopMove($(this));
+            });
+        });
+    </script>
+</head>
+<body>
+<div style="width: 150pt;height: 50pt;font-weight: bolder;font-size: xx-large;color: greenyellow;background: black;">
+    宇宙银河太阳系地月系地球亚洲中国北京
+</div>
+</body>
+</html>
