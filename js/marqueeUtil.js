@@ -32,7 +32,7 @@ function moveText($obj)
         setTimeout(function ()
         {
             moveText($obj);
-        }, 500);
+        }, 50);
     }
     else
         return;
@@ -47,7 +47,7 @@ function move($obj, speed)
         $obj.attr("move", "1");
         $obj.attr("val", "0");
         if (speed == null || speed == undefined)
-            speed = 20;
+            speed = 2;
         $obj.attr("add", speed);
         moveText($obj);
     }
@@ -56,7 +56,7 @@ function move($obj, speed)
 function startMove($objs, speed)
 {
     if (speed == null && speed == undefined)
-        speed = 20;
+        speed = 2;
     for (var v = 0; v < $objs.length; v++)
     {
         var $obj = $objs.eq(v);
