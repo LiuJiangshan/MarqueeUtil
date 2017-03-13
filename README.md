@@ -1,8 +1,8 @@
 # MarqueeUtil
-×ÔÓÃJquery¹ö¶¯Ìõ
-	¿ªÊ¼¹ö¶¯
-		startMove($("div"),speed)
-	Í£Ö¹¹ö¶¯
-		stopMove($("div"));
-	Í£Ö¹²¢»Ö¸´Ô­×´
-		reverse($("div"));
+#ç®€å•,è‡ªç”¨Jqueryæ»šåŠ¨æ¡
+#å¼€å§‹æ»šåŠ¨
+startMove($("div"),speed)
+#åœæ­¢æ»šåŠ¨
+stopMove($("div"));
+#åœæ­¢æ»šåŠ¨,å¹¶å°†æ–‡å­—æ¢å¤åŸçŠ¶
+reverse($("div"));
