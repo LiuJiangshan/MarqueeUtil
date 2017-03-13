@@ -1,5 +1,5 @@
 # MarqueeUtil
-#[预览效果](https://liujiangshan.github.io/MarqueeUtil)
+##[预览效果](https://liujiangshan.github.io/MarqueeUtil)
 简单,自用Jquery滚动条</br>
 #开始滚动
 startMove($("div"),speed)
